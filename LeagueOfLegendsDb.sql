@@ -1,0 +1,41 @@
+﻿USE MASTER
+GO
+
+DROP DATABASE IF EXISTS LeagueOfLegendsDb
+GO
+
+CREATE DATABASE LeagueOfLegendsDb
+GO
+USE LeagueOfLegendsDb
+GO
+
+DROP TABLE IF EXISTS Characters
+DROP TABLE IF EXISTS Roles
+GO
+
+CREATE TABLE Roles (
+	RoleID INT IDENTITY PRIMARY KEY  NOT NULL,
+	RoleName VARCHAR(50) NULL
+)
+
+INSERT INTO Roles VALUES ('Top')
+INSERT INTO Roles VALUES ('Jungle')
+INSERT INTO Roles VALUES ('Mid')
+INSERT INTO Roles VALUES ('Adc')
+INSERT INTO Roles VALUES ('Support')
+
+CREATE TABLE Characters (
+	CharacterID INT IDENTITY PRIMARY KEY  NOT NULL,
+	CharacterName VARCHAR(50) NULL,
+	CharacterDescription VARCHAR(255) NULL,
+
+	-- Foreign keys
+	RoleID INT NULL,
+	FOREIGN KEY (RoleID) REFERENCES Roles(RoleID)
+)
+GO
+
+INSERT INTO Characters VALUES ('Wukong','The Monkey King',1)
+
+SELECT * FROM Roles
+SELECT * FROM Characters

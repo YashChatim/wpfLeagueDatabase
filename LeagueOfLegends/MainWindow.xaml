@@ -1,0 +1,55 @@
+﻿<Window x:Class="LeagueOfLegends.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeagueOfLegends"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="MediumPurple">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label Grid.Column="1" Grid.ColumnSpan="4" Content="Top League Of Legends Characters" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold" />
+
+        <Button x:Name="ButtonAdd" Content="Add" Grid.Row="4" Grid.Column="0" IsEnabled="True" Background="Purple" Click="ButtonAdd_Click"/>
+        <Button x:Name="ButtonEdit" Content="Edit" Grid.Row="5" Grid.Column="0" IsEnabled="False" Background="Purple" Click="ButtonEdit_Click"/>
+        <Button x:Name="ButtonDelete" Content="Delete" Grid.Row="6" Grid.Column="0" IsEnabled="False" Background="Purple" Click="ButtonDelete_Click"/>
+
+        <Label x:Name="LabelCharacterID" Content="ID" Grid.Row="2" Grid.Column="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="LabelCharacterName" Content="Name" Grid.Row="2" Grid.Column="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="LabelCharacterDescription" Content="Description" Grid.Row="2" Grid.Column="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+        <TextBox x:Name="TextBoxCharacterID" Grid.Row="2" Grid.Column="1" IsReadOnly="True" Background="#B3A4C5" />
+        <TextBox x:Name="TextBoxCharacterName" Grid.Row="2" Grid.Column="3" IsReadOnly="True" Background="#B3A4C5" />
+        <TextBox x:Name="TextBoxCharacterDescription" Grid.Row="2" Grid.Column="5" IsReadOnly="True" Background="#B3A4C5" />
+
+        <ListView x:Name="ListViewCharacterDetails" Grid.Row="3" Grid.RowSpan="5" Grid.Column="1" Grid.ColumnSpan="4" SelectionChanged="ListViewCharacterDetails_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Character ID" Width="100" DisplayMemberBinding="{Binding CharacterID}"/>
+                    <GridViewColumn Header="Character Name" Width="150" DisplayMemberBinding="{Binding CharacterName}"/>
+                    <GridViewColumn Header="Character Description" Width="270" DisplayMemberBinding="{Binding CharacterDescription}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        
+        
+    </Grid>
+</Window>

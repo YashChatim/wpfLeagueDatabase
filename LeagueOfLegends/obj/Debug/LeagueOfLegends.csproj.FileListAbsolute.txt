@@ -1,0 +1,40 @@
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\bin\Debug\LeagueOfLegends.exe.config
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\bin\Debug\LeagueOfLegends.exe
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\bin\Debug\LeagueOfLegends.pdb
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.csprojAssemblyReference.cache
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\obj\Debug\MainWindow.g.cs
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\obj\Debug\App.g.cs
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends_MarkupCompile.cache
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends_MarkupCompile.lref
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\obj\Debug\MainWindow.baml
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.g.resources
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.Properties.Resources.resources
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.csproj.GenerateResource.cache
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.exe
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.pdb
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends_Content.g.cs
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\bin\Debug\EntityFramework.dll
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\bin\Debug\EntityFramework.xml
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yash Chatim\Engineering45\LeagueOfLegendsDatabaseApp\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.csproj.CopyComplete
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\bin\Debug\LeagueOfLegends.exe.config
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\bin\Debug\LeagueOfLegends.exe
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\bin\Debug\LeagueOfLegends.pdb
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\bin\Debug\EntityFramework.dll
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\bin\Debug\EntityFramework.xml
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.csprojAssemblyReference.cache
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\obj\Debug\MainWindow.g.cs
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\obj\Debug\App.g.cs
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends_Content.g.cs
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends_MarkupCompile.cache
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends_MarkupCompile.lref
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\obj\Debug\MainWindow.baml
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.g.resources
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.Properties.Resources.resources
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.csproj.GenerateResource.cache
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.csproj.CopyComplete
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.exe
+D:\C#\wpfLeagueDatabase\LeagueOfLegends\LeagueOfLegends\obj\Debug\LeagueOfLegends.pdb
