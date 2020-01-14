@@ -14,6 +14,10 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -24,28 +28,32 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Label Grid.Column="1" Grid.ColumnSpan="4" Content="Top League Of Legends Characters" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold" />
+        <Label Grid.Column="2" Grid.ColumnSpan="6" Content="My Top League Of Legends Characters" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold" />
+        
+        <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Content="Character Information" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="15" FontWeight="Bold" />
 
-        <Button x:Name="ButtonAdd" Content="Add" Grid.Row="4" Grid.Column="0" IsEnabled="True" Background="Purple" Click="ButtonAdd_Click"/>
-        <Button x:Name="ButtonEdit" Content="Edit" Grid.Row="5" Grid.Column="0" IsEnabled="False" Background="Purple" Click="ButtonEdit_Click"/>
-        <Button x:Name="ButtonDelete" Content="Delete" Grid.Row="6" Grid.Column="0" IsEnabled="False" Background="Purple" Click="ButtonDelete_Click"/>
+        <Label x:Name="LabelCharacterID" Content="ID" Grid.Row="3" Grid.Column="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="LabelCharacterName" Content="Name" Grid.Row="4" Grid.Column="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="LabelCharacterDescription" Content="Description" Grid.Row="5" Grid.Column="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
-        <Label x:Name="LabelCharacterID" Content="ID" Grid.Row="2" Grid.Column="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Label x:Name="LabelCharacterName" Content="Name" Grid.Row="2" Grid.Column="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Label x:Name="LabelCharacterDescription" Content="Description" Grid.Row="2" Grid.Column="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="TextBoxCharacterID" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsReadOnly="True" Background="LightGray" />
+        <TextBox x:Name="TextBoxCharacterName" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsReadOnly="True" Background="LightGray" />
+        <TextBox x:Name="TextBoxCharacterDescription" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsReadOnly="True" Background="LightGray" />
 
-        <TextBox x:Name="TextBoxCharacterID" Grid.Row="2" Grid.Column="1" IsReadOnly="True" Background="#B3A4C5" />
-        <TextBox x:Name="TextBoxCharacterName" Grid.Row="2" Grid.Column="3" IsReadOnly="True" Background="#B3A4C5" />
-        <TextBox x:Name="TextBoxCharacterDescription" Grid.Row="2" Grid.Column="5" IsReadOnly="True" Background="#B3A4C5" />
+        <Button x:Name="ButtonAdd" Content="Add" Grid.Row="7" Grid.Column="0" IsEnabled="True" Background="Purple" Click="ButtonAdd_Click"/>
+        <Button x:Name="ButtonEdit" Content="Edit" Grid.Row="7" Grid.Column="1" IsEnabled="False" Background="Purple" Click="ButtonEdit_Click"/>
+        <Button x:Name="ButtonDelete" Content="Delete" Grid.Row="7" Grid.Column="2" IsEnabled="False" Background="Purple" Click="ButtonDelete_Click"/>
 
-        <ListView x:Name="ListViewCharacterDetails" Grid.Row="3" Grid.RowSpan="5" Grid.Column="1" Grid.ColumnSpan="4" SelectionChanged="ListViewCharacterDetails_SelectionChanged">
+        <ListView x:Name="ListViewCharacterDetails" Grid.Row="3" Grid.RowSpan="5" Grid.Column="4" Grid.ColumnSpan="6" SelectionChanged="ListViewCharacterDetails_SelectionChanged">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Character ID" Width="100" DisplayMemberBinding="{Binding CharacterID}"/>
-                    <GridViewColumn Header="Character Name" Width="150" DisplayMemberBinding="{Binding CharacterName}"/>
-                    <GridViewColumn Header="Character Description" Width="270" DisplayMemberBinding="{Binding CharacterDescription}"/>
+                    <GridViewColumn Header="ID" Width="40" DisplayMemberBinding="{Binding CharacterID}"/>
+                    <GridViewColumn Header="Name" Width="100" DisplayMemberBinding="{Binding CharacterName}"/>
+                    <GridViewColumn Header="Description" Width="300" DisplayMemberBinding="{Binding CharacterDescription}"/>
                 </GridView>
             </ListView.View>
         </ListView>
